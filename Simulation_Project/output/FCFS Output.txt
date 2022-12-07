@@ -1,0 +1,99 @@
+CPU utilization: 80.3 %
+Throughput: 0.29 processes/minute
+Average turnaround time: 28.74 minutes/process
+Average waiting time: 5.96 minutes/process
+
+Gantt chart:
+Quantum = 50
+
+
+CPU utilization: 75.44 %
+Throughput: 0.25 processes/minute
+Average turnaround time: 30.13 minutes/process
+Average waiting time: 5.26 minutes/process
+
+Gantt chart:
+Quantum = 50
+
+
+CPU utilization: 79.08 %
+Throughput: 0.29 processes/minute
+Average turnaround time: 28.08 minutes/process
+Average waiting time: 5.42 minutes/process
+
+Gantt chart:
+Quantum = 50
+
+
+CPU utilization: 75.16 %
+Throughput: 0.28 processes/minute
+Average turnaround time: 26.36 minutes/process
+Average waiting time: 4.73 minutes/process
+
+Gantt chart:
+Quantum = 50
+
+
+CPU utilization: 74.66 %
+Throughput: 0.24 processes/minute
+Average turnaround time: 31.21 minutes/process
+Average waiting time: 5.45 minutes/process
+
+Gantt chart:
+Quantum = 50
+
+
+CPU utilization: 75.88 %
+Throughput: 0.26 processes/minute
+Average turnaround time: 29.61 minutes/process
+Average waiting time: 5.06 minutes/process
+
+Gantt chart:
+Quantum = 50
+
+
+CPU utilization: 79.47 %
+Throughput: 0.25 processes/minute
+Average turnaround time: 33.11 minutes/process
+Average waiting time: 6.36 minutes/process
+
+Gantt chart:
+Quantum = 50
+
+
+CPU utilization: 79.19 %
+Throughput: 0.29 processes/minute
+Average turnaround time: 28.27 minutes/process
+Average waiting time: 5.66 minutes/process
+
+Gantt chart:
+Quantum = 50
+
+
+CPU utilization: 78.37 %
+Throughput: 0.26 processes/minute
+Average turnaround time: 31.29 minutes/process
+Average waiting time: 5.86 minutes/process
+
+Gantt chart:
+Quantum = 50
+
+
+CPU utilization: 78.4 %
+Throughput: 0.26 processes/minute
+Average turnaround time: 31.26 minutes/process
+Average waiting time: 5.49 minutes/process
+
+Gantt chart:
+Quantum = 50
+
+
+CPU utilization: 78.88 %
+Throughput: 0.28 processes/minute
+Average turnaround time: 29.17 minutes/process
+Average waiting time: 5.49 minutes/process
+
+Gantt chart:
+Quantum = 50
+
+
