@@ -1,153 +1,60 @@
-CPU utilization: 74.84 %
-Throughput: 0.26 processes/minute
-Average turnaround time: 29.26 minutes/process
-Average waiting time: 4.4 minutes/process
-
-Gantt chart:
-Quantum = 50
-
-
-CPU utilization: 75.34 %
-Throughput: 0.27 processes/minute
-Average turnaround time: 29.22 minutes/process
-Average waiting time: 4.5 minutes/process
-
-Gantt chart:
-Quantum = 50
-
-
-CPU utilization: 75.46 %
+CPU utilization: 75.23 %
 Throughput: 0.27 processes/minute
 Average turnaround time: 29.28 minutes/process
-Average waiting time: 4.62 minutes/process
-
-Gantt chart:
-Quantum = 50
-
-
-CPU utilization: 75.75 %
-Throughput: 0.27 processes/minute
-Average turnaround time: 29.22 minutes/process
-Average waiting time: 4.57 minutes/process
-
-Gantt chart:
-Quantum = 50
-
-
-CPU utilization: 75.16 %
-Throughput: 0.27 processes/minute
-Average turnaround time: 29.27 minutes/process
-Average waiting time: 4.62 minutes/process
-
-Gantt chart:
-Quantum = 50
-
-
-CPU utilization: 75.55 %
-Throughput: 0.27 processes/minute
-Average turnaround time: 29.03 minutes/process
-Average waiting time: 4.67 minutes/process
-
-Gantt chart:
-Quantum = 50
-
-
-CPU utilization: 75.25 %
-Throughput: 0.27 processes/minute
-Average turnaround time: 29.31 minutes/process
-Average waiting time: 4.65 minutes/process
-
-Gantt chart:
-Quantum = 50
-
-
-CPU utilization: 75.93 %
-Throughput: 0.27 processes/minute
-Average turnaround time: 28.96 minutes/process
-Average waiting time: 4.64 minutes/process
-
-Gantt chart:
-Quantum = 50
-
-
-CPU utilization: 75.88 %
-Throughput: 0.27 processes/minute
-Average turnaround time: 29.06 minutes/process
-Average waiting time: 4.5 minutes/process
-
-Gantt chart:
-Quantum = 50
-
+Average waiting time: 4.48 minutes/process
 
 CPU utilization: 75.52 %
 Throughput: 0.27 processes/minute
-Average turnaround time: 29.14 minutes/process
-Average waiting time: 4.44 minutes/process
+Average turnaround time: 29.29 minutes/process
+Average waiting time: 4.5 minutes/process
 
-Gantt chart:
-Quantum = 50
-
-
-CPU utilization: 75.62 %
-CPU utilization: 75.91 %
+CPU utilization: 75.41 %
 Throughput: 0.27 processes/minute
-Throughput: 0.27 processes/minute
-Average turnaround time: 29.16 minutes/process
-Average turnaround time: 29.2 minutes/process
-Average waiting time: 4.63 minutes/process
-
-Gantt chart:
-Average waiting time: 4.79 minutes/process
-
-Quantum = 50
-Gantt chart:
-
-
-Quantum = 50
-
-
-CPU utilization: 75.11 %
-Throughput: 0.27 processes/minute
-Average turnaround time: 29.19 minutes/process
+Average turnaround time: 29.38 minutes/process
 Average waiting time: 4.62 minutes/process
 
-Gantt chart:
-Quantum = 50
-
-
-CPU utilization: 75.27 %
+CPU utilization: 75.7 %
 Throughput: 0.27 processes/minute
-Average turnaround time: 29.25 minutes/process
-Average waiting time: 4.56 minutes/process
+Average turnaround time: 29.07 minutes/process
+Average waiting time: 4.65 minutes/process
 
-Gantt chart:
-Quantum = 50
-
-
-CPU utilization: 74.48 %
-CPU utilization: 75.05 %
+CPU utilization: 74.63 %
 Throughput: 0.26 processes/minute
-Throughput: 0.27 processes/minute
-Average turnaround time: 29.33 minutes/process
-Average turnaround time: 29.39 minutes/process
-Average waiting time: 4.32 minutes/process
+Average turnaround time: 29.46 minutes/process
+Average waiting time: 4.33 minutes/process
 
+CPU utilization: 75.22 %
+Throughput: 0.27 processes/minute
+Average turnaround time: 29.31 minutes/process
+Average waiting time: 4.45 minutes/process
+
+CPU utilization: 75.41 %
+Throughput: 0.27 processes/minute
+Average turnaround time: 29.27 minutes/process
+Average waiting time: 4.54 minutes/process
+
+CPU utilization: 74.8 %
+Throughput: 0.26 processes/minute
+Average turnaround time: 29.14 minutes/process
 Average waiting time: 4.51 minutes/process
 
-Gantt chart:
-Gantt chart:
-Quantum = 50
-Quantum = 50
-
-
-
-
-CPU utilization: 75.12 %
+CPU utilization: 75.17 %
 Throughput: 0.27 processes/minute
-Average turnaround time: 29.14 minutes/process
-Average waiting time: 4.55 minutes/process
+Average turnaround time: 29.22 minutes/process
+Average waiting time: 4.43 minutes/process
 
-Gantt chart:
-Quantum = 50
+CPU utilization: 75.17 %
+Throughput: 0.27 processes/minute
+Average turnaround time: 29.38 minutes/process
+Average waiting time: 4.47 minutes/process
 
+CPU utilization: 75.31 %
+Throughput: 0.27 processes/minute
+Average turnaround time: 29.31 minutes/process
+Average waiting time: 4.51 minutes/process
+
+CPU utilization: 75.13 %
+Throughput: 0.27 processes/minute
+Average turnaround time: 29.41 minutes/process
+Average waiting time: 4.68 minutes/process
 

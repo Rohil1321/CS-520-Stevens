@@ -38,12 +38,6 @@ public class SJF {
     public static int[][] recordA = new int[numberOfProcess+1][3];  
     // record[id]: turnaround time, running time, waiting time
     
-    // for Gantt chart
-    public static ArrayList<Integer> orderL = new ArrayList<Integer>();
-    
-    // for SJF: quantum
-    public static int quantum = 50;
-    
     // for SJF: alpha
     public static double alpha = 1d/3d;
     
@@ -171,26 +165,10 @@ public class SJF {
         System.out.println("Average turnaround time: "+averageTurnaroundTime+" minutes/process");
         System.out.println("Average waiting time: "+averageWaitingTime+" minutes/process");
         
-        System.out.println("");
-        
-        System.out.println("Gantt chart:");
-        System.out.println("Quantum = "+quantum);
-        String _r = "";
-        
-        for(int i = 0; i < orderL.size(); i++) 
-        {
-            _r = _r+"|P"+orderL.get(i);
-        }
-        System.out.println(_r);
-        
         Output.export(route, "CPU utilization: "+CPUUtilization+" %\n");
         Output.export(route, "Throughput: "+throughput+" processes/minute\n");
         Output.export(route, "Average turnaround time: "+averageTurnaroundTime+" minutes/process\n");
         Output.export(route, "Average waiting time: "+averageWaitingTime+" minutes/process\n\n");
-        Output.export(route, "Gantt chart:\n");
-        Output.export(route, "Quantum = "+quantum+"\n");
-        Output.export(route, _r+"\n\n");
-
     }
 
 }
