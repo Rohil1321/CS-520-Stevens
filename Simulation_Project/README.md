@@ -30,4 +30,14 @@ and the I/O Queue along with the event object, which you should adapt from the B
 Simulation. 
 The task is to write the simulation of the system behavior for the whole period of the 
 execution, while computing and collecting the following statistics: CPU utilization, 
-throughput (i.e., the average number of processes completed in a unit of time)
+throughput (i.e., the average number of processes complet![Figure1](https://user-images.githubusercontent.com/70903587/206315382-ed48f86a-99a0-4de9-bfef-e53e79514628.png)
+ed in a unit of time)
+
+
+![Uploading Figure1.png…]()
+
+
+
+
+
+
