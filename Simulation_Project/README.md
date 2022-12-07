@@ -1,4 +1,5 @@
-******The Simulation Programming Project  ******
+The Simulation Programming Project
+
 (As announced, this project’s score will be graded on the same scale as Final: 40%.)  
  
 Please consult the remaining slides (starting from slide 45) of Lecture 2 (Process Scheduling), which outlines the approach to the project, and start the development. Note that the pseudo-code there is merely to provide general guidance—don’t take it as a 
