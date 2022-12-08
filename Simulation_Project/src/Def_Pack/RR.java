@@ -2,12 +2,20 @@ package Def_Pack;
 
 import java.lang.*;
 import java.util.*;
+import java.io.PrintWriter;
+import java.util.Random;
+import java.io.IOException;
+import java.util.Scanner;
+import java.io.File;
+import java.io.FileWriter;
 
 import Def_Pack.*;
 
 public class RR 
 {
-    
+	// log file route
+	public static File log = new File("./log/RR_Log_File.txt");
+	
     // output route
     public static String route = "./output/RR Output.txt";
 
@@ -43,20 +51,54 @@ public class RR
     public static ArrayList<Integer> orderL = new ArrayList<Integer>();
     
     // for RR: quantum
-    public static int quantum = 50;
+    public static int quantum = 100;
+    
+    //Creating log file
+    public static void log_creator(int k) 
+    {
+        try
+        {
+            if (log.exists()==false) 
+            {
+                log.createNewFile();
+            }
+            else 
+            {
+                try 
+                {
+                    log = new File("./log/RR_Log_File" + (k + 1) + ".txt");                          
+                    log_creator(k + 1);                                             
+                }
+
+                finally {}
+            }
+
+        } 
+        catch (Exception e) 
+        {
+            System.out.println("Exception: "+e);
+        }
+    }
+
+    // Log Writer
+    public static void logging(CharSequence s) 
+    {                             
+        try 
+        {
+            PrintWriter logger = new PrintWriter(new FileWriter(log, true));
+            logger.append(s);
+            logger.close();
+        } 
+        catch (IOException e)
+        {
+            System.out.println("System Exception: " + e);
+        }
+    }
     
     public static void main(String[] args) 
     {
-        
-        /* generate processes
-        for(int i = 1; i <= numberOfProcess; i++) 
-        {
-            int _burstTime = T.uniformlyExecutionTime();
-            Process _p = new Process(i, _burstTime, meanInterIOIntervalA[i]);
-            processL.add(_p);
-        }
-        //*/
-        
+    	log_creator(1);
+    	
         //* to test different quantum with same data
         processL.add(new Process(1, 223012, 30));
         processL.add(new Process(2, 195843, 35));
@@ -184,6 +226,11 @@ public class RR
         System.out.println("Average turnaround time: "+averageTurnaroundTime+" minutes/process");
         System.out.println("Average waiting time: "+averageWaitingTime+" minutes/process");
         
+        logging("CPU utilization: "+CPUUtilization+" %\n");
+        logging("Throughput: "+throughput+" processes/minute\n");
+        logging("Average turnaround time: "+averageTurnaroundTime+" minutes/process\n");
+        logging("Average waiting time: "+averageWaitingTime+" minutes/process\n");
+        logging("Quantum = " + quantum);
         System.out.println("");
         
         System.out.println("Gantt chart:");

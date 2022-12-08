@@ -1,0 +1,5 @@
+CPU utilization: 75.15 %
+Throughput: 0.27 processes/minute
+Average turnaround time: 29.06 minutes/process
+Average waiting time: 4.80 minutes/process
+Quantum = 50
